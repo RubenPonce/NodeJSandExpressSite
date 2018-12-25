@@ -6,13 +6,13 @@ block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
-
+      
         //- Use interploation to dynamically add the project title.
-        h1 Title
+        h1 #{projectInfo.project_name}
 
         //- Use interploation to dynamically add the project description.
         p.lead.text-light
-          | Description
+          | #{projectInfo.description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
