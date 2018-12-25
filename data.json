@@ -1,0 +1,48 @@
+{  
+    "0":{  
+       "project_name":"Random Quote Generator",
+       "description":"Pulls random quotes that are hardcoded into the JavaScript and displays them",
+       "technologies":" Vanilla Javascript",
+       "live_link":"'https://rubenponce.github.io/randomQuoteGenerator/'",
+       "GitHub pages":"'https://rubenponce.github.io/randomQuoteGenerator/'",
+       "github_link":"'https://github.com/RubenPonce/randomQuoteGenerator'",
+       "image_url":"'/static/images/project1.png'"
+    },
+    "1":{  
+       "project_name":"List Pagination -- Paginate the Students!",
+       "description":"A list of students was given to sort into a dynamic list",
+       "technologies":" Vanilla Javascript",
+       "live_link":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "GitHub pages":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "github_link":"https://github.com/RubenPonce/randomQuoteGenerator",
+       "image_url":"'/static/images/project1.png'"
+    },
+    "2":{  
+       "project_name":"Form Validation",
+       "description":"Pulls random quotes that are hardcoded into the JavaScript and displays them",
+       "technologies":" Vanilla Javascript",
+       "live_link":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "GitHub pages":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "github_link":"https://github.com/RubenPonce/randomQuoteGenerator",
+       "image_url":"'/static/images/project1.png'"
+    },
+    "3":{  
+       "project_name":"Random Quote Generator",
+       "description":"Pulls random quotes that are hardcoded into the JavaScript and displays them",
+       "technologies":" Vanilla Javascript",
+       "live_link":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "GitHub pages":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "github_link":"https://github.com/RubenPonce/randomQuoteGenerator",
+       "image_url":"'/static/images/project1.png'"
+    },
+    "4":{  
+       "project_name":"Technical Word Salad",
+       "description":"A hangman-esque game that takes several technical words from programmer syntax and documentation. It's kind of difficult if you ask me",
+       "technologies":" Vanilla Javascript",
+       "live_link":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "GitHub pages":"https://rubenponce.github.io/randomQuoteGenerator/",
+       "github_link":"https://github.com/RubenPonce/randomQuoteGenerator",
+       "image_url":"'/static/images/project1.png'"
+    }
+ }
+ 
