@@ -16,7 +16,7 @@ for (const i in projectData) {
         data.push(projectData[i]);  
     }
 }
-console.log(data.length);
+
 
 app.get('/', function(req, res) {
     res.render('index', {data});
@@ -26,24 +26,12 @@ app.get('/about', function(req, res) {
 });
 
 app.get('/project:id', function(req, res) {
-    const {id} = req.params;
-    const projectInfo = data[id]
-    console.log(projectInfo);
+    let {id} = req.params;
+    id = parseInt(id)-1;
+    let projectInfo = data[id.toString()];
+    
     res.render('project',{projectInfo});
 });
-
-
-// app.get('/index', function(req, res) {
-//     res.render('index');
-
-// });
-// app.get('/project', function(req, res) {
-//     res.render('project');
-
-// });
-// app.get('/about', (req, res) => {
-//     res.render('about');
-// });
 
 
 app.listen(3000, () => {
