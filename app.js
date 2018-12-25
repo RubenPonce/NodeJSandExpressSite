@@ -16,20 +16,19 @@ for (const i in projectData) {
         data.push(projectData[i]);  
     }
 }
-console.log(data[0].image_url);
+console.log(data.length);
 
 app.get('/', function(req, res) {
-    res.render('index');
+    res.render('index', {data});
 });
 app.get('/about', function(req, res) {
     res.render('about');
 });
 
 app.get('/project:id', function(req, res) {
-    console.log(req.params);
     const {id} = req.params;
     const projectInfo = data[id]
-
+    console.log(projectInfo);
     res.render('project',{projectInfo});
 });
 
