@@ -1,10 +1,12 @@
-
+body{
+  background-color:  #d8d8d8; 
+}
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:'Open Sans', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -58,29 +60,28 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: rgb(139, 190, 201);
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color:rgb(0, 0, 0);
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:'Open Sans','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
-
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(138, 138, 138)
   }
+
 
 .portfolio-breadcrumb{
   margin: 0;
@@ -89,22 +90,27 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Open Sans','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+ 
+   
  }
+
 
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .portfolio-index{
@@ -113,19 +119,40 @@ a:hover{
 }
 
   .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+    margin-bottom: 10px;
 
-  .portfolio-index a{
-    color: #222;
   }
+ 
+    .portfolio-index .thumbnail:hover {
+      -webkit-transition: width 2s, height 2s, -webkit-transform .5s; /* Safari */
+      transition: width .8s, height .8s, transform .4s;
+      -webkit-animation: scale(1.5,1.5);
+      transform: scale(1.1,1.1);
+  }
+  
+  a{
+    color: rgb(16, 16, 15);
+  }
+  a:hover{
+  color: #248f9d
+
+ }
+  
 
   .portfolio-index .cell{
     margin-bottom: 15px;
+
   }
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      color:  #7d7c70;
+      font-family: 'Open Sans', 'Lato';
+    }
+    .portfolio-index .cell:hover h5{
+      
+      color:  #248f9d !important;
+     
     }
 
 .portfolio-meta{

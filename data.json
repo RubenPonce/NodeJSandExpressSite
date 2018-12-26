@@ -1,7 +1,7 @@
 {  
     "1":{    
        "project_name":"Random Quote Generator",
-       "description":"Pulls random quotes that are hardcoded into the JavaScript and displays them",
+       "description":"Pulls random quotes that are hardcoded into the JavaScript and displays them. Also changes background color, quotes, and tag-colors every few seconds, or on button press.",
        "technologies":["Javascript","CSS","HTML"],
        "live_link":"/project1",
        "github_pages":"https://rubenponce.github.io/randomQuoteGenerator/",
@@ -9,8 +9,8 @@
        "image_url":["static/images/project1.png","static/images/project1C.png","static/images/project1B.png"]
     },
     "2":{  
-       "project_name":"List Pagination -- Paginate the Students!",
-       "description":"A list of students was given to sort into a dynamic list",
+       "project_name":"List Pagination and Filtering",
+       "description":"A list of students was given to sort into a dynamic list of 10 students per page. Though the list is hard coded, now I can imagine using this functionality by pulling in mass lists from an API like in the employee database project, and sorting through it. That's something I'd like to try in the future.",
        "technologies":["Javascript","CSS","HTML"],
        "live_link":"/project2",
        "github_pages":"https://rubenponce.github.io/listPaginationAndFiltering/",
@@ -37,7 +37,7 @@
     },
     "5":{  
        "project_name":"Employee Database",
-       "description":"An employee database that carries common information about employees, and upon clicking the cards, more in detailed information will be displayed about an employee. This project uses the random user api from https://randomuser.me/, and parses it to display employee data.",
+       "description":"An employee database that carries common information about employees, and upon clicking the cards, more in detailed information will be displayed about an employee. This project uses the random user api from https://randomuser.me/ and parses it to display employee data. Also includes search functionality.",
        "technologies":["Fetch API","Javascript","CSS","HTML"],
        "live_link":"/project5",
        "github_pages":"https://rubenponce.github.io/publicAPIRequests/",

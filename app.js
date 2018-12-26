@@ -33,6 +33,19 @@ app.get('/project:id', function(req, res) {
     res.render('project',{projectInfo});
 });
 
+app.use((req,res,next)=>{
+    const err = new Error('The page you are looking for does not exist');
+    err.status = 404;
+    next(err);
+});
+
+app.use((err,req,res,next)=>{
+    res.locals.error = err;
+    res.status(err.status)
+   
+    res.render('error');
+  
+});
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!');
