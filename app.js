@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const projectData = require('./data.json');
-
+const port =  process.env.PORT || 1337;
 app.use('/static', express.static('public'));
 //view engine
 app.set('view engine','pug');
