@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const projectData = require('./data.json');
-const port =  process.env.PORT || 1337;
+let PORT =  process.env.PORT || 1337;
 app.use('/static', express.static('public'));
 //view engine
 app.set('view engine','pug');
@@ -47,6 +47,6 @@ app.use((err,req,res,next)=>{
   
 });
 
-app.listen(port, () => {
-    console.log(`The application is running on ${port}`);
+app.listen(PORT, () => {
+    console.log(`The application is running on a port ${PORT}`);
 });
