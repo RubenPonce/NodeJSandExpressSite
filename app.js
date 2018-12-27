@@ -16,15 +16,10 @@ app.set('view engine','pug');
 app.set('views', path.join(__dirname, 'views') );
 
 //initialize the data array
-const data = [];
-for (const i in projectData) {
-    if (projectData.hasOwnProperty(i)) {
-        data.push(projectData[i]);  
-    }
-}
+
 
 //be able to call template data from routes
-app.set('data',data);
+app.set('data',projectData.projects);
 
 //route to directories
 app.use(index);
