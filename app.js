@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const projectData = require('./data.json');
 const PORT =  process.env.PORT || 5000;
+const path = require('path');
+
 //route interaction
 const index = require('./routes/index');
 const about = require('./routes/about');
@@ -11,7 +13,7 @@ const error = require('./routes/error');
 //view engine and static folder at 'public'
 app.use('/static', express.static('public'));
 app.set('view engine','pug');
-app.set('views', '/Users/rubenponce/Documents/GitHub/NodeJSandExpressSite/views');
+app.set('views', path.join(__dirname, 'views') );
 
 //initialize the data array
 const data = [];
