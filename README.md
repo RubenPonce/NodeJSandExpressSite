@@ -7,6 +7,6 @@ Style changes from boiler plate
   
 Future updates:
   More CSS animations. Such as link nudging to the back and learn more buttons, and parallax background effect.
-  More content such as projects and aboutme sections
+  More content such as projects and aboutme sections.
   Contact forms with serverside validation.
 
