@@ -15,8 +15,6 @@ app.use('/static', express.static('public'));
 app.set('view engine','pug');
 app.set('views', path.join(__dirname, 'views') );
 
-//initialize the data array
-
 
 //be able to call template data from routes
 app.set('data',projectData.projects);

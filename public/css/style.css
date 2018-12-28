@@ -120,7 +120,8 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 10px;
-
+    -webkit-transition: width 2s, height 2s, -webkit-transform .5s; /* Safari */
+    transition: width 1s, height 1s, transform .5s;
   }
  
     .portfolio-index .thumbnail:hover {
